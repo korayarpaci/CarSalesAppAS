@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Image Selection -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_input_add"
+            app:srcCompat="@drawable/add" />
+
+        <!-- Title Input -->
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Başlık : "
+            android:inputType="text" />
+
+        <!-- Brand Input -->
+        <EditText
+            android:id="@+id/brandEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Marka : "
+            android:inputType="text" />
+
+        <!-- Model Input -->
+        <EditText
+            android:id="@+id/modelEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Model : "
+            android:inputType="text" />
+
+        <!-- Price Input -->
+        <EditText
+            android:id="@+id/priceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Fiyat :"
+            android:inputType="numberDecimal" />
+
+        <!-- Add Post Button -->
+        <Button
+            android:id="@+id/addPostButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="İlanı Ekle"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "32151924561",
+    "project_id": "arabailan-1b986",
+    "storage_bucket": "arabailan-1b986.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32151924561:android:f78d2497b9f2b9f145ed70",
+        "android_client_info": {
+          "package_name": "com.example.arabailan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8CBrCgHJ4OUTMaPHWV7z01jhbd_pgELw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
